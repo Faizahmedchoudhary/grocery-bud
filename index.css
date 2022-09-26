@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: white;
+    position: absolute;
+  top: 15%;
+  left: 40%;
+  margin: -25px 0 0 -25px;
+  padding: 2rem;
+  max-height: 100%;
+  text-align: center;
+  }
+
+  h1{
+  padding-bottom: 1rem;
+  }
+
+  #submit{
+    padding: 0.5rem;
+      background-color: aliceblue;
+      border: none;
+      font-size: 1.1rem;
+  }
+
+  input{
+    padding: 0.5rem;
+  }
+
+.main-container{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+li.grocery-list-li {
+    list-style: none;
+    font-size: 2rem !important;
+}
+
+#grocery-list{
+    text-align: start;
+    
+}
+.fa-trash{
+    font-size: 2rem !important;
+}
+
+.single-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+#grocery-list li{
+    border: 1px solid black;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+}
